@@ -1,9 +1,8 @@
-# zhenxun_a2s_query
-## 适用于真寻bot的插件，支持群聊查询游戏服务器详情
+# nonebot_a2s_query
+## 适用于nonebot的插件，支持群聊查询游戏服务器详情
 
 + 基于value的a2s协议，可查询求生之路、半条命、军团要塞、Counter-Strike: Global Offensive、Counter-Strike 1.6、ARK: Survival Evolved、Rust等游戏
 + 根据游戏服务器ip返回游戏内相关信息  
-+ 已经实现文字转图，减少风控  
 
 ### 要求
 ---
@@ -18,7 +17,7 @@ pip3 install python-a2s
 ### 安装
 ---
 
-+ clone项目到 extensive_plugin 文件夹下，或直接下载项目上传到对应文件夹
++ clone项目到 plugin 文件夹下，或直接下载项目上传到对应文件夹
 + 重启机器人
 
 ### 命令
@@ -30,14 +29,3 @@ pip3 install python-a2s
 | 加服 \| add            | 在群里添加一个ip别称，方便查询，需要@机器人(别称和ip中间一定是英文的逗号，中文不会识别) | @bot 加服 测试,192.168.0.1:27015 \| @bot add test,192.168.0.1 |
 | 删服 \| delete         | 删除添加的ip别称， 需要@机器人                               | @bot 删服 测试 \| @bot delete test                           |
 | 群服 \| list           | 查询所有别称ip的服务器人数名称                               | 群服 \| list                                                 |
-
-### 图片示例
----
-
-#### 查服示例图片
-
-![查服](./connect.png)
-
-#### 群服示例图片
-
-![群服](./list.png)
