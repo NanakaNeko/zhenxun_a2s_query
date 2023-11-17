@@ -1,9 +1,10 @@
 # zhenxun_a2s_query
 ## 适用于真寻bot的插件，支持群聊查询游戏服务器详情
 
-+ 基于value的a2s协议，可查询求生之路、半条命、军团要塞、Counter-Strike: Global Offensive、Counter-Strike 1.6、ARK: Survival Evolved、Rust等游戏
++ 基于value的a2s协议，可查询求生之路、半条命、军团要塞、Counter-Strike: Global Offensive、Counter-Strike 1.6、ARK: Survival Evolved、Rust等游戏  
 + 根据游戏服务器ip返回游戏内相关信息  
 + 已经实现文字转图，减少风控  
++ 分支增加无文字转图版本，nonebot可用，修改一下介绍即可  
 
 ### 要求
 ---
